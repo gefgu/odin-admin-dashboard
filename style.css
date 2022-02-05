@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -9,15 +10,34 @@ body {
   grid-template-rows: 1fr 4fr;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Side Bar */
+
 .sidebar {
   background-color: #0EA5E9;
   grid-row: 1 / span 2;
 }
 
+.sidebar a, .sidebar .logo {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Header */
+
 .header {
   background-color: #F0F9FF;
   grid-column: 2;
 }
+
+/* Main Content */
 
 .main-content {
   background-color: #BAE6FD;
