@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+.profile-image {
+  border-radius: 100%;
+}
+
 /* Side Bar */
 
 .sidebar {
@@ -60,7 +64,11 @@ a {
 .header {
   background-color: #F0F9FF;
   grid-column: 2;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
+
+
 
 /* Main Content */
 
