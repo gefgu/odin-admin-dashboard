@@ -65,13 +65,14 @@ a {
   background-color: #F0F9FF;
   grid-column: 2;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 8px;
   align-items: start;
 }
 
 .searchbar {
   display: grid;
-  grid-template-columns: 20px 1fr;
+  grid-template-columns: auto 1fr;
   padding: 16px;
   gap: 16px;
 }
@@ -82,6 +83,19 @@ input.search {
   width: 75%;
   border-radius: 12px;
   padding: 4px 16px;
+}
+
+.account {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 28px;
+  align-items: center;
+  justify-items: center;
+  padding-right: 16px;
+}
+
+.account .name {
+  justify-self: start;
 }
 
 
