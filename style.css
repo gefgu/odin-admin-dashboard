@@ -66,8 +66,23 @@ a {
   grid-column: 2;
   display: grid;
   grid-template-columns: 3fr 1fr;
+  align-items: start;
 }
 
+.searchbar {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  padding: 16px;
+  gap: 16px;
+}
+
+input.search {
+  border: none;
+  background-color: #CBD5E1;
+  width: 75%;
+  border-radius: 12px;
+  padding: 4px 16px;
+}
 
 
 /* Main Content */
