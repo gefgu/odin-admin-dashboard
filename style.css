@@ -138,6 +138,20 @@ input.search {
 /* Main Content */
 
 .main-content {
-  background-color: #BAE6FD;
+  background-color: #E2E8F0;
+  grid-column: 2;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 48px;
+}
+
+.projects {
+  grid-row: span 2;
+}
+
+.trending, .announcements {
   grid-column: 2;
 }
