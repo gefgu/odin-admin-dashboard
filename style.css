@@ -143,7 +143,7 @@ input.search {
   padding-left: 32px;
   padding-right: 32px;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap: 48px;
 }
@@ -192,4 +192,33 @@ input.search {
 .trending,
 .announcements {
   grid-column: 2;
+}
+
+.announcements h4 {
+  margin-bottom: 8px;
+}
+
+.announcements h5 {
+  margin: 8px 0;
+}
+
+.announcements p { 
+  margin-top: 8px;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.announcements > div {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px 32px;
+}
+
+.announcements > div > div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 16px;
+}
+
+.announcements > div > div:last-child {
+  border-bottom: 0;
 }
