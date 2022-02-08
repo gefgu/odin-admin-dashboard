@@ -152,6 +152,12 @@ input.search {
   grid-row: span 2;
 }
 
+.projects .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+
 .trending, .announcements {
   grid-column: 2;
 }
