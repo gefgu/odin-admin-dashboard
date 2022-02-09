@@ -199,13 +199,14 @@ input.search {
 }
 
 .announcements h5 {
-  margin: 8px 0;
+  margin: 8px 0 0;
 }
 
 .announcements p { 
-  margin-top: 8px;
+  margin-top: 0;
   font-size: 0.8rem;
   font-weight: 200;
+  line-height: 1rem;
 }
 
 .announcements > div {
@@ -216,9 +217,11 @@ input.search {
 
 .announcements > div > div {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 8px;
   margin-bottom: 16px;
 }
 
 .announcements > div > div:last-child {
   border-bottom: 0;
+  margin-bottom: 0;
 }
