@@ -202,7 +202,7 @@ input.search {
   margin: 8px 0 0;
 }
 
-.announcements p { 
+.announcements p {
   margin-top: 0;
   font-size: 0.8rem;
   font-weight: 200;
@@ -224,4 +224,37 @@ input.search {
 .announcements > div > div:last-child {
   border-bottom: 0;
   margin-bottom: 0;
+}
+
+.trending > div {
+  background-color: white;
+  padding: 4px 32px;
+}
+
+.trending > div > div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  margin: 32px 0;
+  column-gap: 16px;
+}
+
+.trending .profile-image {
+  grid-row: 1 / span 2;
+}
+
+.trending .profile-name,
+.trending .description {
+  grid-column: 2;
+  margin: 0;
+}
+
+.trending .profile-name {
+  font-size: 0.9rem;
+}
+
+.trending .description {
+  font-size: 0.8rem;
+  font-weight: 200;
 }
