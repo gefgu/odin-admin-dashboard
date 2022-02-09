@@ -39,6 +39,12 @@ a {
 
 .logo {
   margin-left: 16px;
+  font-size: 1.1rem;
+  column-gap: 8px;
+}
+
+.logo img {
+  width: 40px;
 }
 
 .sidebar ul {
@@ -69,9 +75,10 @@ a {
   grid-column: 2;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding-top: 8px;
   align-items: start;
   padding: 8px 48px 8px 16px;
+  z-index: 1;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .searchbar {
@@ -169,10 +176,15 @@ input.search {
   background-color: white;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .card p {
   margin: 0;
+}
+
+.card .project-name {
+  font-weight: 700;
 }
 
 .card .project-description {
@@ -194,6 +206,7 @@ input.search {
   grid-column: 2;
 }
 
+.trending h4,
 .announcements h4 {
   margin-bottom: 8px;
 }
@@ -213,6 +226,7 @@ input.search {
   background-color: white;
   border-radius: 8px;
   padding: 16px 32px;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .announcements > div > div {
@@ -230,6 +244,7 @@ input.search {
   background-color: white;
   padding: 4px 32px;
   border-radius: 8px;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 .trending > div > div {
