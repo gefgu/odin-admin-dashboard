@@ -229,6 +229,7 @@ input.search {
 .trending > div {
   background-color: white;
   padding: 4px 32px;
+  border-radius: 8px;
 }
 
 .trending > div > div {
